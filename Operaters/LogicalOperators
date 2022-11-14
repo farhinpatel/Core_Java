@@ -1,0 +1,16 @@
+package Operators;
+
+public class LogicalOperators {
+
+	public static void main(String[] args) {
+		// && (and),|| (or), !(not)
+		
+		//System.out.printIn(!true);
+		//System.out.printIn(!false);
+		
+		//System.out.printIn(10<100 && 20>10 && 1>10);
+		System.out.println(10>100 || 1>10);
+
+	}
+
+}
