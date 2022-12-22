@@ -1,0 +1,19 @@
+package abstractclassex;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+        WashingClothes wc;
+		
+		wc= new TopLoadMachine();
+		
+		
+	}
+
+		// WashingClothes wc = new WashingClothes(); // error
+		
+		
+	}
+
+
