@@ -1,0 +1,10 @@
+package accessex;
+
+public class Data {
+	
+	int a=100;
+	public int b=200;
+	private int c=300;
+	protected int d=500;
+
+}
