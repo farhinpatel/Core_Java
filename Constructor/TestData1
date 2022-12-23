@@ -1,0 +1,11 @@
+package constructor;
+
+public class TestData1 {
+
+	public static void main(String[] args) {
+		Data1 d1 = new Data1(100,300,500);
+		d1.Showabc();
+
+	}
+
+}
