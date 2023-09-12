@@ -1,0 +1,34 @@
+package this_keyword;
+
+public class Manager {
+	int managerId;
+	String managerName;
+	
+	public void acceptData(int managerId, String managerName ) {
+		this.managerId= managerId;
+		this.managerName=managerName;
+		
+	}
+	public void showData() {
+		System.out.println("Manager id is : "+managerId);
+		System.out.println("Manager name is : "+managerName);
+	}
+
+}
+package this_keyword;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		System.out.println("Main method is started");
+		Manager m1 = new Manager();
+		m1.acceptData(125, "Farhin");
+		m1.showData();
+	}
+
+}
+Output
+Main method is started
+Manager id is : 125
+Manager name is : Farhin
